@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хүсэлт илгээх</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="signIn">
+        <h1 class="form-title">Судалгаа</h1>
+            <form method="post" action="register2.php">
+                <div class="input-group">
+                    <p>Та цахим гэмт хэргийн хохирогч болж байсан уу?</p><br>
+                    <i class="fa fa-pencil"></i>
+                    <input type="text" name="app" id="app" placeholder="app" required>
+                    <label for="app">Хариултаа энд бичнэ үү.</label>
+                </div>
+                <div class="input-group">
+                    <p>Та яг одоо цахим гэмт хэргийн хохирогч болсон гэвүүл итгэх үү?</p><br>
+                    <i class="fa fa-pencil"></i>
+                    <input type="text" name="loanAmount" id="loanAmount" placeholder="loan Amount" required>
+                    <label for="app">Хариултаа энд бичнэ үү.</label>
+                </div>
+
+                <input type="submit" class="btn" value="Илгээх" name="signIn">
+            </form>
+            <p class="or">
+            ----------------------------------------------------------------
+                    </p>
+           
+            <div class="links">
+                <p> Судалгаа бөглөсөнд баярлалаа. </p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
